@@ -1,36 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* MAIN CONTAINERS */
 
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-/* Define styles for the container */
 .main-container {
-    height: 100vh; /* Set the height of the container to 100vh */
-    display: flex; /* Use flexbox to arrange child divs */
-    flex-direction: column; /* Arrange child divs vertically */
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    background-image: url("/static/background/index/index-background04.png");
+    background-size: cover;
 }
 
-/* Add these styles to your existing CSS */
 .main-content {
-    flex: 1; /* Allow the main content to fill the remaining space */
-    display: block; /* Reset the display property */
+    flex: 1;
+    display: block;
 }
 
 /* MAIN LEFT AND RIGHT DIVS */
 
 .main-left-div,
 .main-right-div {
-    box-sizing: border-box; /* Include padding and borders in width calculation */
-    float: left; /* Float left for the left div */
+    box-sizing: border-box;
+    float: left;
     height: 100%;
 }
 
@@ -39,27 +27,35 @@ body {
 .main-left-div{
     width: 60%;
     float: left;
-    background-color: rgb(201, 94, 94);
 }
 
 .parent-container {
-    width: 100%; /* Adjust the width as needed */
-    height: 100%; /* Adjust the height as needed */
-    background-color: #f0f0f0;
-    padding: 200px;
+    width: 80%;
+    height: 100%;
+    padding-top: 300px;
+    padding-left: 200px;
 }
 
 .header {
-    font-size: 34px;
-    color: #000;
-    margin-bottom: 10px;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
     font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(31, 31, 31, 0.466);
+}
+
+.subtitle{
+    font-size: 30px;
+    color: rgb(216, 216, 216);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(31, 31, 31, 0.295);
 }
 
 .paragraph {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+    margin-bottom: 40px;
 }
 
 .button {
@@ -73,12 +69,13 @@ body {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
 
 .main-button {
-    background-color: rgb(48, 48, 48);
+    background-color: rgba(255, 255, 255, 0.034);
+    border: 2px solid #aaaaaa2a;
+    border-radius: 10px;
     color: white;
-    border-radius: 5px;
 }
   
 .main-button:hover {
@@ -92,13 +89,15 @@ body {
 .main-right-div {
     width: 40%;
     float: right; /* Float right for the right div */
-    background-color: rgb(228, 228, 228);
+    /* background-image: url("/static/background/gradient-background01.png");
+    background-size: cover; */
 }
 
 .image-container {
     position: relative;
     width: 100%;
     height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.041); */
 }
 
 /* Style for the child image */
@@ -106,7 +105,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 500px;
+    width: 100%;
     height: auto;
 }
 

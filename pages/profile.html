@@ -4,140 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Lamper Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
+    
+    <!-- Linking stylesheets -->
+    <link rel="stylesheet" href="/resources/css/style.css">
+    <link rel="stylesheet" href="/resources/css/navbar.css">
+    <link rel="stylesheet" href="/resources/css/profile.css">
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .profile-img {
-            margin-top: 50px;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-
-        .name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .job-title {
-            font-size: 18px;
-            color: #888;
-        }
-
-        .about {
-            max-width: 600px;
-            text-align: center;
-            margin-top: 20px;
-            font-size: 16px;
-        }
-
-        .contact {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-
-        .social-links {
-            margin-top: 10px;
-        }
-
-        .social-links a {
-            text-decoration: none;
-            color: #007BFF;
-            margin: 0 10px;
-        }
-        .spacing{
-            height: 350px;
-        }
-        .card-container {
-            display: flex;
-            justify-content: space-between;
-            /* margin: 100px; */
-            margin-bottom: 30px;
-            margin-top: 50px;
-            margin-left: 50px;
-            margin-right: 50px;
-        }
-
-        .card {
-            flex: 1;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px; /* Add padding to create space inside each card */
-            margin-right: 20px;
-            background-color: white;
-        }
-
-        h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            font-size: 18px;
-            color: #888;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 16px;
-        }
-    </style>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
 </head>
 <body>
-    <div class="container">
-        <img src="https://static.vecteezy.com/system/resources/previews/011/490/381/original/happy-smiling-young-man-avatar-3d-portrait-of-a-man-cartoon-character-people-illustration-isolated-on-white-background-vector.jpg" alt="Girl in a jacket" width="500" height="600" class="profile-img">
-        <div class="name">Alex Lamper</div>
-        <div class="job-title">Student at the HZ University</div>
-        <div class="about">
-            Welcome to my portfolio! I'm a passionate web developer with a love for creating beautiful and functional websites. Besides that I also like making applications for mobile and desktop.
+    <div class="main-container">
+<!-- Navbar -->
+<div class="navbar">
+    <nav>
+        <ul class="navbar">
+            <li><a href="/index.html" id="main" class="hover-underline-animation">Home</a></li>
+            <li class="active"><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a></li>
+            <li><a href="/pages/dashboard.html" id="dashboard" class="hover-underline-animation">Dashboard</a></li>
+            <li><a href="/pages/faq.html" id="faq" class="hover-underline-animation">FAQ</a></li>
+            <li><a href="/pages/blog.html" id="blog" class="hover-underline-animation">Blog</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="container">
+    <img src="/static/images/profile-picture.jpg" alt="Boy in a jacket" width="500" height="600" class="profile-img">
+    <div class="name">Alex Lamper</div>
+    <div class="job-title">Student at the HZ University</div>
+    <div class="about-paragraph">
+        Welcome to my portfolio! I'm a passionate web developer with a love for creating beautiful and functional websites. Besides that I also like making applications for mobile and desktop.
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <h3>Hobby's</h3>
+            <div class="subtitle">Wat zijn mijn hobby's?</div>
+            <p>Mijn hobby's zijn programmeren, nieuwe dingen leren en creeeren. Daarnaast vind ik het leuk om met vrienden af te spreken.</p>
         </div>
-        <div class="card-container">
-            <div class="card">
-                <h3>Hobby's</h3>
-                <div class="subtitle">Wat zijn mijn hobby's?</div>
-                <p>Mijn hobby's zijn programmeren, nieuwe dingen leren en creeeren. Daarnaast vind ik het leuk om met vrienden af te spreken.</p>
-            </div>
-            <div class="card">
-                <h3>Werk</h3>
-                <div class="subtitle">Wat doe ik als werk?</div>
-                <p>Als bijbaantje werk ik bij de Albert Heijn, hier werk ik vaak in het weekend en af en toe in de avond door de weeks.</p>
-            </div>
-            <div class="card">
-                <h3>Gegevens</h3>
-                <div class="subtitle">Mijn gegevens.</div>
-                <p><ul>
-                    <li>Naam: Alex Lamper</li>
-                    <li>Leeftijd: 17 Jaar</li>
-                    <li>Woonplaats: Middelharnis</li>
+        <div class="card">
+            <h3>Werk</h3>
+            <div class="subtitle">Wat doe ik als werk?</div>
+            <p>Als bijbaantje werk ik bij de Albert Heijn, hier werk ik vaak in het weekend en af en toe in de avond door de weeks.</p>
+        </div>
+        <div class="card">
+            <h3>Gegevens</h3>
+            <div class="subtitle">Hier wat algemene informatie,</div>
+            <p>
+                <ul>
+                    <li id="gegevens-list-item">Naam: Alex Lamper</li>
+                    <li id="gegevens-list-item">Leeftijd: 17 Jaar</li>
+                    <li id="gegevens-list-item">Woonplaats: Middelharnis</li>
                 </ul>
             </p>
-            </div>
         </div>
-        <div class="contact">
-            Feel free to reach out to me:
-        </div>
-        <div class="social-links">
-            <a href="https://linkedin.com/AlexLamper" target="_blank">LinkedIn</a>
-            <a href="https://github.com/AlexLamper" target="_blank">GitHub</a>
-            <a href="mailto:lamp0020@hz.nl">Email</a>
-        </div>
+    </div>
+    <div class="contact">
+        Feel free to reach out to me:
+    </div>
+    <div class="social-links">
+        <a href="https://linkedin.com/AlexLamper" target="_blank">LinkedIn</a>
+        <a href="https://github.com/AlexLamper" target="_blank">GitHub</a>
+        <a href="mailto:lamp0020@hz.nl">Email</a>
+    </div>
+</div>
     </div>
 </body>
 </html>

@@ -1,8 +1,15 @@
+/* MAIN CONTAINERS */
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url("/static/background/profile/profile-background02.png");
+    background-size: cover;
+}
+
+.main-container{
+    height: 100vh;
 }
 
 .container {
@@ -10,8 +17,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
+
+/* MAIN PROFILE SECTION */
 
 .profile-img {
     margin-top: 50px;
@@ -22,9 +30,10 @@ body {
 }
 
 .name {
-    font-size: 24px;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 5px;
+    color: white;
 }
 
 .job-title {
@@ -32,40 +41,22 @@ body {
     color: #888;
 }
 
-.about {
+.about-paragraph {
     max-width: 600px;
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
+    color: white;
 }
 
-.contact {
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-.social-links {
-    margin-top: 10px;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: #007BFF;
-    margin: 0 10px;
-}
-
-.spacing {
-    height: 350px;
-}
+/* PROFILE CARDS SECTION */
 
 .card-container {
     display: flex;
     justify-content: space-between;
-    /* margin: 100px; */
     margin-bottom: 30px;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    max-width: 80%;
 }
 
 .card {
@@ -75,8 +66,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    /* Add padding to create space inside each card */
-    margin-right: 20px;
+    margin: 30px;
 }
 
 h3 {
@@ -93,3 +83,27 @@ h3 {
 p {
     font-size: 16px;
 }
+
+#gegevens-list-item{
+    list-style: none;
+}
+
+/* PROFILE CONTACT SECTION */
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: rgb(160, 160, 160);
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+}
+
