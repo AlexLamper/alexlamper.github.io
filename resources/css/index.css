@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Define styles for the container */
+.main-container {
+    height: 100vh; /* Set the height of the container to 100vh */
+    display: flex; /* Use flexbox to arrange child divs */
+    flex-direction: column; /* Arrange child divs vertically */
+}
+
+/* Add these styles to your existing CSS */
+.main-content {
+    flex: 1; /* Allow the main content to fill the remaining space */
+    display: block; /* Reset the display property */
+}
+
+.main-left-div,
+.main-right-div {
+    width: 50%;
+    box-sizing: border-box; /* Include padding and borders in width calculation */
+    float: left; /* Float left for the left div */
+    height: 100%;
+}
+
+.main-left-div{
+    float: left;
+    background-color: rgb(201, 94, 94);
+}
+
+.main-right-div {
+    float: right; /* Float right for the right div */
+    background-color: rgb(106, 191, 106);
+}
+
+/* ----- ABOUT ME ----- */
+
+.about-me-container{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
