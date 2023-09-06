@@ -25,7 +25,7 @@ I designed the website's layout to visualize the structure. Then, I implemented 
 
 ## Additional Information
 - **Deadline:** The project was completed by 07-09-2023.
-- **Deployed Site:** You can access the deployed site [here]([https://www.openai.com](https://alexlamper.github.io/) "My Portfolio" target="_blank").
+- **Deployed Site:** You can access the deployed site [Visit OpenAI's Website](https://www.openai.com "OpenAI's Website" target="_blank")
 - **Tools & Languages Used:** HTML, CSS, JavaScript, Visual Studio Code, Favicon.io, Gradient Image Maker, Google Fonts,  Git & GitHub.
 
 Feel free to explore my portfolio and reach out if you have any questions or feedback. Thank you for visiting!
