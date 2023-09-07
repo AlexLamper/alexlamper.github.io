@@ -8,7 +8,7 @@
     background-size: cover;
 }
 
-.main-content {
+.main-content-section {
     flex: 1;
     display: block;
 }
@@ -30,21 +30,21 @@
 }
 
 .parent-container {
-    width: 80%;
+    width: 85%;
     height: 100%;
     padding-top: 300px;
     padding-left: 200px;
 }
 
-.header {
+.header h1 {
     font-size: 70px;
     color: white;
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: 700;
     text-shadow: 2px 2px 2px rgba(31, 31, 31, 0.466);
 }
 
-.subtitle{
+.subtitle h2{
     font-size: 30px;
     color: rgb(216, 216, 216);
     margin-bottom: 20px;
@@ -53,8 +53,11 @@
 }
 
 .paragraph {
-    font-size: 18px;
-    color: rgb(180, 180, 180);
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+    font-size: 20px;
+    color: #838383;
     margin-bottom: 40px;
 }
 
@@ -111,10 +114,89 @@
 
 /* ----- ABOUT ME ----- */
 
-.about-me-container{
-    margin: 0;
-    padding: 0;
+.about-me-section {
     background-color: black;
     color: white;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
     height: 100vh;
+}
+
+.about-me-title-div{
+    padding-top: 100px;
+}
+
+#about-me-subtitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(202, 202, 202);
+}
+
+#about-me-title{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: rgb(202, 202, 202);
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-paragraph {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.about-paragraph p {
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+    font-size: 20px;
+    color: #838383;
+}
+
+.about-image{
+    width: 100%;
+}
+
+.about-image img {
+    max-height: 450px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    opacity: .65;
+}
+
+.about-skills ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.about-skills ul li {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    display:inline-block
+}
+
+.about-skills ul li a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.about-skills ul li a:hover {
+    text-decoration: underline;
+    color: #bdbdbd;
 }
