@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <meta name="description" content="Explore my latest articles, news, and insights on various topics of interest." />
+    <title>Blog - Portfolio</title>
 
     <!-- Linking stylesheets -->
     <link rel="stylesheet" href="/styling/style.css">
     <link rel="stylesheet" href="/styling/navbar.css">
+    <link rel="stylesheet" href="/styling/blog.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -15,18 +18,55 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
 </head>
+
 <body>
-    <!-- Navbar -->
-    <div class="navbar">
-        <nav>
-            <ul class="navbar">
-                <li><a href="/index.html" id="main" class="hover-underline-animation">Home</a></li>
-                <li><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a></li>
-                <li><a href="/pages/dashboard.html" id="dashboard" class="hover-underline-animation">Dashboard</a></li>
-                <li><a href="/pages/faq.html" id="faq" class="hover-underline-animation">FAQ</a></li>
-                <li class="active"><a href="/pages/blog.html" id="blog" class="hover-underline-animation">Blog</a></li>
-            </ul>
-        </nav>
+    <div class="main-container">
+        <!-- Navbar -->
+        <div class="navbar">
+            <nav>
+                <ul class="navbar">
+                    <div class="navbar-section-left">
+                        <li><a href="/index.html" id="main" class="hover-underline-animation">Home</a></li>
+                        <li><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a></li>
+                        <li><a href="/pages/dashboard.html" id="dashboard" class="hover-underline-animation">Dashboard</a></li>
+                        <li><a href="/pages/faq.html" id="faq" class="hover-underline-animation">FAQ</a></li>
+                        <li class="active"><a href="/pages/blog.html" id="blog" class="hover-underline-animation">Blog</a></li>
+                    </div>
+                    <div class="navbar-section-right">
+                        <img src="/static/logo/hz-logo-white.png" alt="HZ Logo" class="logo">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="blog-feed">
+            <h1>Blog Feed</h1>
+            <div class="blog-post">
+                <h2>Study Choice</h2>
+                <p class="date">Published on: January 10, 2023</p>
+                <p>Excerpt from the Study Choice article. <a href="study_choice.html">Read more...</a></p>
+            </div>
+            <div class="blog-post">
+                <h2>Personal SWOT Analysis</h2>
+                <p class="date">Published on: February 5, 2023</p>
+                <p>Excerpt from the Personal SWOT Analysis article. <a href="swot_analysis.html">Read more...</a></p>
+            </div>
+            <div class="blog-post">
+                <h2>Programming Experience</h2>
+                <p class="date">Published on: March 15, 2023</p>
+                <p>Excerpt from the Programming Experience article. <a href="programming_experience.html">Read more...</a></p>
+            </div>
+            <div class="blog-post">
+                <h2>First Feedback</h2>
+                <p class="date">Published on: April 20, 2023</p>
+                <p>Excerpt from the First Feedback article. <a href="first_feedback.html">Read more...</a></p>
+            </div>
+            <div class="blog-post">
+                <h2>Exploring ICT Field</h2>
+                <p class="date">Published on: May 8, 2023</p>
+                <p>Excerpt from the ICT Field Exploration article. <a href="ict_field.html">Read more...</a></p>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

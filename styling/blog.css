@@ -1,0 +1,52 @@
+.main-container{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("/static/background/blog/blog-background.png");
+    background-size: cover;
+}
+
+.blog-feed {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-feed h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(202, 202, 202);
+    margin-bottom: 50px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.144);
+}
+
+.blog-post h2 {
+    font-size: 1.2rem;
+    color: rgb(241, 241, 241);
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #b8b8b8;
+    margin-bottom: 5px;
+}
+
+.blog-post p {
+    color: rgb(204, 204, 204);
+}
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

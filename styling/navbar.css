@@ -4,6 +4,16 @@
     overflow: hidden;
 }
 
+.navbar-section-right{
+    float: right;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
 /* Style the navbar list */
 .navbar ul {
     list-style-type: none;

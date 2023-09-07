@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Lamper Portfolio</title>
-    
+    <meta name="description" content="My personal profile, a quick overview with some information about me."/>
+    <title>Profile - Portfolio</title>
+
     <!-- Linking stylesheets -->
     <link rel="stylesheet" href="/styling/style.css">
     <link rel="stylesheet" href="/styling/navbar.css">
@@ -16,59 +18,69 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
 </head>
+
 <body>
     <div class="main-container">
-<!-- Navbar -->
-<div class="navbar">
-    <nav>
-        <ul class="navbar">
-            <li><a href="/index.html" id="main" class="hover-underline-animation">Home</a></li>
-            <li class="active"><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a></li>
-            <li><a href="/pages/dashboard.html" id="dashboard" class="hover-underline-animation">Dashboard</a></li>
-            <li><a href="/pages/faq.html" id="faq" class="hover-underline-animation">FAQ</a></li>
-            <li><a href="/pages/blog.html" id="blog" class="hover-underline-animation">Blog</a></li>
-        </ul>
-    </nav>
-</div>
-<div class="container">
-    <img src="/static/images/profile-picture.jpg" alt="Boy in a jacket" width="500" height="600" class="profile-img">
-    <div class="name">Alex Lamper</div>
-    <div class="subtitle">Student at the HZ University</div>
-    <div class="about-paragraph">
-        Welcome to my portfolio! I'm a passionate web developer with a love for creating beautiful and functional websites. Besides that I also like making applications for mobile and desktop.
-    </div>
-    <div class="card-container">
-        <div class="card">
-            <h3>Hobbies</h3>
-            <div class="subtitle">What are my hobbies?</div>
-            <p>My hobbies are programming, learning new things, and creating. Additionally, I enjoy meeting up with friends.</p>
-        </div>
-        <div class="card">
-            <h3>Work</h3>
-            <div class="subtitle">What do I do for work?</div>
-            <p>As a part-time job, I work at Albert Heijn. I often work on weekends and occasionally in the evenings during the week.</p>
-        </div>
-        <div class="card">
-            <h3>Information</h3>
-            <div class="subtitle">Here's some general information,</div>
-            <p>
-                <ul>
-                    <li id="gegevens-list-item">Name: Alex Lamper</li>
-                    <li id="gegevens-list-item">Age: 17 years</li>
-                    <li id="gegevens-list-item">Place of Residence: Middelharnis</li>
+        <!-- Navbar -->
+        <div class="navbar">
+            <nav>
+                <ul class="navbar">
+                    <div class="navbar-section-left">
+                        <li><a href="/index.html" id="main" class="hover-underline-animation">Home</a></li>
+                        <li class="active"><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a></li>
+                        <li><a href="/pages/dashboard.html" id="dashboard" class="hover-underline-animation">Dashboard</a></li>
+                        <li><a href="/pages/faq.html" id="faq" class="hover-underline-animation">FAQ</a></li>
+                        <li><a href="/pages/blog.html" id="blog" class="hover-underline-animation">Blog</a></li>
+                    </div>
+                    <div class="navbar-section-right">
+                        <img src="/static/logo/hz-logo-white.png" alt="HZ Logo" class="logo">
+                    </div>
                 </ul>
-            </p>
+            </nav>
         </div>
-    </div>
-    <div class="contact">
-        Feel free to reach out to me:
-    </div>
-    <div class="social-links">
-        <a href="https://linkedin.com/AlexLamper" target="_blank">LinkedIn</a>
-        <a href="https://github.com/AlexLamper" target="_blank">GitHub</a>
-        <a href="mailto:lamp0020@hz.nl">Email</a>
-    </div>
-</div>
+        <div class="container">
+            <img src="/static/images/profile-picture.jpg" alt="Boy in a jacket" width="500" height="600" class="profile-img">
+            <div class="name">Alex Lamper</div>
+            <div class="subtitle">Student at the HZ University</div>
+            <div class="about-paragraph">
+                Welcome to my portfolio! I'm a passionate web developer with a love for creating beautiful and functional websites. Besides that I also like
+                making applications for mobile and desktop.
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Hobbies</h3>
+                    <div class="card-subtitle">What are my hobbies?</div>
+                    <p>My hobbies are programming, learning new things, and creating. Additionally, I enjoy meeting up with friends.</p>
+                </div>
+                <div class="card">
+                    <h3>Work</h3>
+                    <div class="card-subtitle">What do I do for work?</div>
+                    <p>As a part-time job, I work at Albert Heijn. I often work on weekends and occasionally in the evenings during the week.</p>
+                </div>
+                <div class="card">
+                    <h3>Information</h3>
+                    <div class="card-subtitle">Here's some general information,</div>
+                    <p>
+                    <ul>
+                        <li id="gegevens-list-item">Name: Alex Lamper</li>
+                        <li id="gegevens-list-item">Age: 17 years</li>
+                        <li id="gegevens-list-item">Place of Residence: Middelharnis</li>
+                        <li id="gegevens-list-item">Email Address: aplamper06@gmail.com</li>
+                        <li id="gegevens-list-item">School: HZ University</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="contact">
+                Feel free to reach out to me:
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/AlexLamper" target="_blank">LinkedIn</a>
+                <a href="https://github.com/AlexLamper" target="_blank">GitHub</a>
+                <a href="mailto:lamp0020@hz.nl">Email</a>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
