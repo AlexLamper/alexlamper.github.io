@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to our home page! Discover everything about our website and services here."/>
+    <meta name="description"
+        content="Welcome to our home page! Discover everything about our website and services here." />
     <title>Alex Lamper - Portfolio</title>
 
     <!-- Linking stylesheets -->
@@ -25,11 +26,19 @@
             <!-- Navbar -->
             <div class="navbar">
                 <nav>
+
+                    <!-- Hamburger menu icon -->
+                    <div class="hamburger-menu" onclick="toggleSideMenu()">&#9776;</div>
+
+                    <!-- Navigation links -->
                     <ul class="navbar">
                         <div class="navbar-section-left">
-                            <li class="active"><a href="/index.html" id="main" class="hover-underline-animation">Home</a></li>
-                            <li><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a></li>
-                            <li><a href="/pages/dashboard.html" id="dashboard" class="hover-underline-animation">Dashboard</a></li>
+                            <li class="active"><a href="/index.html" id="main"
+                                    class="hover-underline-animation">Home</a></li>
+                            <li><a href="/pages/profile.html" id="profile" class="hover-underline-animation">Profile</a>
+                            </li>
+                            <li><a href="/pages/dashboard.html" id="dashboard"
+                                    class="hover-underline-animation">Dashboard</a></li>
                             <li><a href="/pages/faq.html" id="faq" class="hover-underline-animation">FAQ</a></li>
                             <li><a href="/pages/blog.html" id="blog" class="hover-underline-animation">Blog</a></li>
                             <li><a href="/pages/links.html" id="blog" class="hover-underline-animation">Links</a></li>
@@ -40,7 +49,23 @@
                     </ul>
                 </nav>
             </div>
-        
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="/index.html">Home</a></li>
+                    <li><a class="menu__item" href="/pages/profile.html">Profile</a></li>
+                    <li><a class="menu__item" href="/pages/dashboard.html">Dashboard</a></li>
+                    <li><a class="menu__item" href="/pages/blog.html">Blog</a></li>
+                    <li><a class="menu__item" href="/pages/links.html">Links</a></li>
+                </ul>
+            </div>
+
             <!-- Main Content -->
             <section class="main-content-section">
                 <div class="main-left-div">
@@ -52,10 +77,14 @@
                             <h2>Student at the HZ - University of Applied Sciences</h2>
                         </div>
                         <div class="paragraph">
-                            <p>Welcome to my portfolio! I'm a web developer passionate about creating beautiful and functional websites. I also enjoy building mobile and desktop applications. My skills include HTML, CSS, JavaScript, and various frameworks. I hope you enjoy looking around in my personal portfolio website. Have a question? Feel free to ask me in the FAQ page!</p>
+                            <p>Welcome to my portfolio! I'm a web developer passionate about creating beautiful and
+                                functional websites. I also enjoy building mobile and desktop applications. My skills
+                                include HTML, CSS, JavaScript, and various frameworks. I hope you enjoy looking around
+                                in my personal portfolio website. Have a question? Feel free to ask me in the FAQ page!
+                            </p>
                         </div>
                         <a href="/pages/profile.html">
-                        <button class="button main-button">Check Out My Profile!</button>
+                            <button class="button main-button">Check Out My Profile!</button>
                         </a>
                     </div>
                 </div>
@@ -78,7 +107,10 @@
                 </div>
                 <div class="about-content">
                     <div class="about-paragraph">
-                        <p>Hello! I'm Alex Lamper, a passionate web developer with a strong desire to create amazing digital experiences. I love coding, problem-solving, and bringing creative ideas to life. In my journey as a developer, I've worked on a variety of projects, ranging from responsive websites to complex web applications.</p>
+                        <p>Hello! I'm Alex Lamper, a passionate web developer with a strong desire to create amazing
+                            digital experiences. I love coding, problem-solving, and bringing creative ideas to life. In
+                            my journey as a developer, I've worked on a variety of projects, ranging from responsive
+                            websites to complex web applications.</p>
                     </div>
                     <div class="about-image">
                         <img src="/static/images/about-image.jpg" alt="About Page Image">
@@ -99,6 +131,9 @@
             </aside>
         </section>
     </main>
+
+    <!-- Linking scripts -->
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>
