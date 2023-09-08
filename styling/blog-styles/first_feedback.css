@@ -1,0 +1,28 @@
+.main-container{
+    background-color: #151515;
+    height: 100vh;
+}
+
+/* Container styles */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Heading styles */
+.blog-container h1 {
+    font-size: 28px;
+    color: #ffffff;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.blog-container p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 15px;
+}

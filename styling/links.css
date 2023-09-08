@@ -6,15 +6,13 @@
 }
 
 .links-container{
-    width: 60%;
-    justify-content: space-between;
-    max-width: 95%;
+    max-width: 60%;
     margin: 0 auto;
-    margin-top: 50px;
+    padding: 20px;
 }
 
 .links-container h1{
-    text-align: center;
+    /* text-align: center; */
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 5px;
@@ -22,10 +20,18 @@
     margin-bottom: 50px;
 }
 
-.link-parent{
-    margin-left: 150px;
+.link-parent li{
+    list-style-type: none;
+    margin-top: 20px;
 }
 
-a{
-     /* unvisited link */ color: #ffffff; text-decoration: none; border: none;
+.link{
+    color: #cfcfcf;
+    text-decoration: none; 
+    border: none;
+}
+
+
+a:hover{
+    color: #ffffff;
 }
