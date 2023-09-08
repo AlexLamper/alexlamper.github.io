@@ -67,3 +67,14 @@
     font-size: 18px;
     margin-left: 5px;
 }
+
+.info{
+    padding-top: 30px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.info h3{
+    color: white;
+    font-style: italic;
+}
