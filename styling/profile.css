@@ -105,7 +105,7 @@ p {
 }
 
 .social-links a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #007BFF;
     margin: 0 10px;
 }
