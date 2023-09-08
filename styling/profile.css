@@ -88,7 +88,8 @@ p {
 }
 
 #gegevens-list-item{
-    list-style: none;
+    margin-left: 10px;
+    /* list-style: none; */
 }
 
 /* PROFILE CONTACT SECTION */
