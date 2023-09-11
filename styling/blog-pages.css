@@ -1,7 +1,20 @@
-/* Programming Experience Page Styling */
+/* Blog Pages Styling */
 
 .main-container{
     background-color: #151515;
+}
+
+/* Arrow Back Styling */
+
+.arrow-back-container{
+    width: 100%;
+}
+
+.arrow-back{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 40px;
+    height: auto;
 }
 
 /* Container styles */
@@ -18,7 +31,6 @@
 .blog-container h1 {
     font-size: 28px;
     color: #ffffff;
-    /* text-align: center; */
     margin-bottom: 20px;
 }
 
