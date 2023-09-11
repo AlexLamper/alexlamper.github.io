@@ -1,4 +1,4 @@
-/* MAIN CONTAINERS */
+/* Main Page Styling */
 
 .main-container {
     height: 100vh;
@@ -14,7 +14,7 @@
     border-bottom: solid 1px rgba(255, 255, 255, 0.15);
 }
 
-/* MAIN LEFT AND RIGHT DIVS */
+/* Main Left and Right Divs */
 
 .main-left-div,
 .main-right-div {
@@ -23,7 +23,7 @@
     height: 100%;
 }
 
-/* MAIN LEFT DIV */
+/* Main Left Div */
 
 .main-left-div{
     width: 60%;
@@ -88,7 +88,7 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/* MAIN RIGHT DIV */
+/* Main Right Div */
 
 .main-right-div {
     width: 40%;
@@ -109,7 +109,7 @@
     height: auto;
 }
 
-/* ----- ABOUT ME ----- */
+/* About Me Section */
 
 .about-me-section {
     background-color: black;
@@ -197,10 +197,11 @@
     color: #bdbdbd;
 }
 
-/* RESPONSIVE CSS SECTION */
+/* Responsive Css Section */
 
 @media only screen and (max-width: 1500px) {
 
+    /* Main Reponsive Section */
     .parent-container {
         width: 100%;
         height: 100%;
@@ -213,7 +214,6 @@
         float: left;
     }
 
-    /* Main section Reponsive */
     .header h1 {
         font-size: 57px;
         margin-bottom: 20px;
@@ -229,7 +229,7 @@
         margin-bottom: 40px;
     }
 
-    /* About me section Responsive */
+    /* About Me Responsive Section */
     .about-me-title-div{
         padding-top: 40px;
     }
@@ -256,7 +256,7 @@
 
 @media only screen and (max-width: 1200px) {
 
-    /* Main Section */
+    /* Main Responsive Section */
     .image {
         display: none;
     }
@@ -294,7 +294,7 @@
         cursor: pointer;
     }
 
-    /* About Section */
+    /* About Me Responsive Section */
 
     .about-image{
         width: 100%;
@@ -318,13 +318,13 @@
 
 @media only screen and (max-width: 1000px) {
 
-    /* Main Section */
+    /* Main Responsive Section */
     .parent-container {
         padding-top: 80px;
         padding-left: 60px;
     }
 
-    /* About Section */
+    /* About Me Responsive Section */
     .container {
         max-width: 75%;
         margin: 0 auto;
@@ -339,7 +339,6 @@
         padding-right: 20px;
         margin-right: 20px;
     }
-
 
     #about-me-title{
         font-size: 25px;

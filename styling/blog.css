@@ -1,3 +1,5 @@
+/* Blog Page Styling */
+
 .main-container{
     max-width: 100%;
     height: 100vh;
@@ -51,11 +53,14 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Responsive Css Section */
+
 @media screen and (max-width: 1400px) {
 
     .blog-feed {
         max-width: 80%;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -66,4 +71,5 @@ a:hover {
         background-image: url("/static/background/blog/blog-background.png");
         background-size: cover;
     }
+
 }

@@ -1,6 +1,6 @@
-/* Basic styles for the navbar */
+/* General Navbar Styling */
+
 .navbar {
-    /* background-color: #131313; */
     overflow: hidden;
 }
 
@@ -14,37 +14,33 @@
     padding: 20px;
 }
 
-/* Style the navbar list */
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-/* Style the navbar list items */
 .navbar li {
     float: left;
     width: 10%;
 }
 
-/* Style the navbar links */
+/* Navbar Links Styling */
+
 .navbar a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 16px; /* Increase the padding to make the navbar taller */
+    padding: 20px 16px;
     text-decoration: none;
-    line-height: 1.5; /* Increase the line height for vertically centered text */
+    line-height: 1.5;
     font-size: 18px;
 }
 
-
-/* Change the color of navbar links on hover */
 .navbar a:hover {
     background-color: #3f3f3f13;
 }
 
-/* Create an underline effect on hover */
 .navbar a::before {
     content: "";
     position: absolute;
@@ -97,18 +93,16 @@
     display: none;
 }
 
-/* Add a class to style the side menu */
 .side-menu {
     display: none;
-    /* Add other styling for the side menu as needed */
     background-color: #131313;
     color: white;
     width: 250px;
     position: fixed;
     top: 0;
-    left: -250px; /* Hide the menu off-screen initially */
+    left: -250px;
     height: 100%;
-    transition: left 0.3s; /* Add a smooth transition effect for sliding in */
+    transition: left 0.3s;
 }
 
 #menu__toggle {
@@ -119,30 +113,37 @@
     display: none;
 }
 
-/* Hamburger menu styles for screens up to 1200px */
+/* Hamburger Menu Styling */
+
 @media screen and (max-width: 1200px) {
 
     .hamburger-menu {
         height: 30px;
         cursor: pointer;
     }
+    
     #menu__toggle {
         opacity: 0;
     }
+
     #menu__toggle:checked + .menu__btn > span {
         transform: rotate(45deg);
     }
+
     #menu__toggle:checked + .menu__btn > span::before {
         top: 0;
         transform: rotate(0deg);
     }
+
     #menu__toggle:checked + .menu__btn > span::after {
         top: 0;
         transform: rotate(90deg);
     }
+
     #menu__toggle:checked ~ .menu__box {
         left: 0 !important;
     }
+
     .menu__btn {
         position: fixed;
         top: 30px;
@@ -152,6 +153,7 @@
         cursor: pointer;
         z-index: 99;
     }
+
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
@@ -162,14 +164,17 @@
         background-color: #c9c9c9;
         transition-duration: .25s;
     }
+
     .menu__btn > span::before {
         content: '';
         top: -8px;
     }
+
     .menu__btn > span::after {
         content: '';
         top: 8px;
     }
+
     .menu__box {
         display: block;
         position: fixed;
@@ -185,6 +190,7 @@
         transition-duration: .25s;
         z-index: 98;
     }
+
     .menu__item {
         display: block;
         padding: 12px 24px;
@@ -195,12 +201,12 @@
         text-decoration: none;
         transition-duration: .25s;
     }
+
     .menu__item:hover {
         background-color: #CFD8DC;
         color: black;
     }
 
-    /* Hide the regular navbar links */
     .navbar ul {
         display: none;
     }

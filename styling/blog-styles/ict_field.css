@@ -1,3 +1,5 @@
+/* ICT Field Page Styling */
+
 .main-container{
     background-color: #151515;
 }
@@ -11,15 +13,14 @@
     line-height: 1.5;
 }
 
-/* Heading styles */
+/* Text Styling */
+
 .blog-container h1 {
     font-size: 28px;
     color: #ffffff;
-    /* text-align: center; */
     margin-bottom: 20px;
 }
 
-/* Paragraph styles */
 .blog-container p {
     font-size: 16px;
     color: #cccccc;

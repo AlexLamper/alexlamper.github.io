@@ -1,9 +1,22 @@
+/* General Styling For The Project */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
+
+/* General Body Styling */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* General Text Styling */
 
 h1{
     font-family: 'Outfit', sans-serif;
@@ -13,20 +26,15 @@ h2{
     font-family: 'Outfit', sans-serif;
 }
 
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
+/* ScrollBar Styling */
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;
 }
 body::-webkit-scrollbar-track {
-    background: transparent;        /* color of the tracking area */
+    background: transparent;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #333;    /* color of the scroll thumb */
-    border-radius: 1px;       /* roundness of the scroll thumb */
+    background-color: #333;
+    border-radius: 1px;
 }

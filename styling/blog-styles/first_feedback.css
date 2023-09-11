@@ -1,3 +1,5 @@
+/* First Feedback Page Styling */
+
 .main-container{
     background-color: #151515;
     height: 100vh;
@@ -12,7 +14,8 @@
     line-height: 1.5;
 }
 
-/* Heading styles */
+/* Text Styling */
+
 .blog-container h1 {
     font-size: 28px;
     color: #ffffff;
@@ -20,7 +23,6 @@
     margin-bottom: 20px;
 }
 
-/* Paragraph styles */
 .blog-container p {
     font-size: 16px;
     color: #cccccc;

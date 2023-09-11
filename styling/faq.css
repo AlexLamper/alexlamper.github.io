@@ -1,3 +1,5 @@
+/* FAQ Page Styling */
+
 .container {
     max-width: 100%;
     height: 100vh;
@@ -25,6 +27,8 @@
     color: rgb(216, 216, 216);
     font-size: 19px;
 }
+
+/* Card Styling */
 
 .card-container {
     display: flex;
@@ -55,7 +59,7 @@
     color: rgb(206, 206, 206);
 }
 
-/* RESPONSIVE CSS SECTION */
+/* Responsive Css Section */
 
 @media only screen and (max-width: 1850px) {
 
