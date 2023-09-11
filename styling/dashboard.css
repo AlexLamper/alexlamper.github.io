@@ -28,21 +28,28 @@
 }
 
 table{
-    color: white;
-    border: solid 1px white;
+    color: black;
     width: 100%;
-    margin: 0;
-    padding: 0;
     margin-bottom: 100px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#table-top{
+    background-color: #36304a;
+    padding: 10px;
 }
 
 table th{
-    border: solid 1px white;
+    padding: 10px;
+    border: solid 1px #00000050;
+    color: white;
 }
 
 table td{
-    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.753);
     padding: 10px;
+    border: solid 1px #00000050;
 }
 
 .line{
