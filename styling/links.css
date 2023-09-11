@@ -26,12 +26,13 @@
 }
 
 .link{
-    color: #cfcfcf;
-    text-decoration: none; 
+    text-decoration: none;
+    color: #9b9b9b;
     border: none;
 }
 
 
 a:hover{
-    color: #ffffff;
+    text-decoration: underline;
+    color: #bdbdbd;
 }
